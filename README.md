@@ -27,7 +27,7 @@ By explicitly choosing a Wi-Fi-only software footprint, the project completely d
 | :--- | :--- | :--- | :--- |
 | **Processor** | Exynos 7904 (Octa-Core ARM64) | Porting custom Apple Device Tree registers | 🔄 Researching |
 | **Bootloader**| Samsung S-Boot -> Custom Shim | Flat physical EL2/EL1 memory reset via assembly | 💻 Coding |
-| **Storage**   | eMMC 5.1 Flash Controller | Custom XNU kernel block-device storage wrapper | 🔄 Researching |
+| **Storage**   |USB otg | 🔄 Researching |
 | **Wireless**  | Broadcom BCM43438 Combo Chip | Leveraging native iPadOS Broadcom support via SDIO | 💻 Coding |
 | **Graphics**  | ARM Mali-G71 MP2 | Software-mapped low-level linear memory framebuffer | 💻 Coding |
 
